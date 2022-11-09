@@ -3,7 +3,7 @@ const router = express.Router();
 
 //test route
 router.get('/', (req, res) => {
-    return 'hello';
+    return res.json('Welcome to KhelaKaro API');
 });
 
 module.exports = router;
